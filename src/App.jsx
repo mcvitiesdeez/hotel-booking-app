@@ -5,13 +5,14 @@ import Footer from './components/Footer.jsx'
 import Bookings from './pages/Bookings.jsx'
 import BookRoom from './pages/BookRoom.jsx'
 import Home from './pages/Home.jsx'
+import image from "../assets/TropikaBrand.svg"
 
 export function Layout() {
   return (
     <>
       <Navbar>
         <Container>
-          <Navbar.Brand as={Link} to={'/'}><img src="./assets/TropikaBrand.svg" alt="Tropika Logo" width="200px" height="200px" /></Navbar.Brand>
+          <Navbar.Brand as={Link} to={'/'}><img src={image} alt="Tropika Logo" width="200px" height="200px" /></Navbar.Brand>
           <Nav>
             <Nav.Link as={Link} to={'/'}>
               <div className='styled-header'>
