@@ -4,11 +4,11 @@ import { Container } from 'react-bootstrap'
 export default function Home() {
 
     const hiResImages = [
-        'src/assets/hiRes/view1.webp',
-        'src/assets/hiRes/view2.webp',
-        'src/assets/hiRes/room1.webp',
-        'src/assets/hiRes/room2.webp',
-        'src/assets/hiRes/room3.webp'
+        '/assets/hiRes/view1.webp',
+        '/assets/hiRes/view2.webp',
+        '/assets/hiRes/room1.webp',
+        '/assets/hiRes/room2.webp',
+        '/assets/hiRes/room3.webp'
     ]
 
     const [currImageIndex, setCurrImageIndex] = useState(0)
