@@ -11,7 +11,7 @@ export function Layout() {
     <>
       <Navbar>
         <Container>
-          <Navbar.Brand as={Link} to={'/'}><img src="/src/assets/TropikaBrand.svg" alt="Tropika Logo" width="200px" height="200px" /></Navbar.Brand>
+          <Navbar.Brand as={Link} to={'/'}><img src="./src/assets/TropikaBrand.svg" alt="Tropika Logo" width="200px" height="200px" /></Navbar.Brand>
           <Nav>
             <Nav.Link as={Link} to={'/'}>
               <div className='styled-header'>
