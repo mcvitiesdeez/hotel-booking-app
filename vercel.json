@@ -5,5 +5,8 @@
             "dest": "/",
             "status": 200
         }
+    ],
+    "rewrites": [
+        { "source": "/assets/(.*)", "destination": "/public/src/assets/$1" }
     ]
 }
