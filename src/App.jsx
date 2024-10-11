@@ -5,7 +5,7 @@ import Footer from './components/Footer.jsx'
 import Bookings from './pages/Bookings.jsx'
 import BookRoom from './pages/BookRoom.jsx'
 import Home from './pages/Home.jsx'
-import image from "/assets/TropikaBrand.svg"
+import image from "./assets/TropikaBrand.svg"
 
 export function Layout() {
   return (
