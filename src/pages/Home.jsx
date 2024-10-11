@@ -1,14 +1,20 @@
 import { useState, useEffect } from 'react'
 import { Container } from 'react-bootstrap'
+import image1 from '../assets/hiRes/view1.webp'
+import image2 from '../assets/hiRes/view2.webp'
+import image3 from '../assets/hiRes/room1.webp'
+import image4 from '../assets/hiRes/room2.webp'
+import image5 from '../assets/hiRes/room3.webp'
+
 
 export default function Home() {
 
     const hiResImages = [
-        '../assets/hiRes/view1.webp',
-        '../assets/hiRes/view2.webp',
-        '../assets/hiRes/room1.webp',
-        '../assets/hiRes/room2.webp',
-        '../assets/hiRes/room3.webp'
+        image1,
+        image2,
+        image3,
+        image4,
+        image5
     ]
 
     const [currImageIndex, setCurrImageIndex] = useState(0)
